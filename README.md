@@ -190,5 +190,7 @@ Create a .env file (optional)
     sqlite>
     ```
 
+    And this is the end of the config.
+
 
 
