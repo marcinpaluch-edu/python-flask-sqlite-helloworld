@@ -182,12 +182,12 @@ Create a .env file (optional)
    RawContentLength  : 71
    ```
 
-10. **Final test**
-Check if user was created successfully 
-```sql
-sqlite> select * from user;
-1|marcin|marcin@example.com
-sqlite>
-```
+10. **Final test**  
+  Check if user was created successfully 
+  ```sql
+  sqlite> select * from user;
+  1|marcin|marcin@example.com
+  sqlite>
+  ```
 
-You're now done.
+  You're now done.
