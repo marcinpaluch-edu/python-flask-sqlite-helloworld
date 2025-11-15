@@ -187,9 +187,8 @@ Create a .env file (optional)
    ```sql
    sqlite> select * from user;
    1|marcin|marcin@example.com
-   2|ala|ala@example.com
    sqlite>
    ```
-   
+
 
 
