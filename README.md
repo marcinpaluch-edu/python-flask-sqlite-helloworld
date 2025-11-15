@@ -35,7 +35,7 @@ This project demonstrates a clean structure with models, services, routes, and m
 
 ## ⚙️ Setup Instructions
 
-1. **Prepare your environment**
+1. **Prepare your environment**  
 You'll need:  
  a. Python3  
  b. Extra packages installation - see below - Flask, SQLAlchemy, Alembic  
@@ -57,7 +57,7 @@ run.py
 pip install flask flask_sqlalchemy flask_migrate
 ```
 
-4. **Set environment variables**
+4. **Set environment variables**  
 Create a .env file (optional)
 
    ```Env
@@ -143,7 +143,7 @@ Create a .env file (optional)
    }
    ```
    
-9. **Add new user for test (Powershell Invoke-WebRequest example)**  
+9. **Add new user for test (Powershell Invoke-WebRequest example)**
    ```powershell
    Invoke-WebRequest -Uri "http://127.0.0.1:5000/users/" `
    -Method POST `
