@@ -73,7 +73,7 @@ Create a .env file (optional)
 
    This creates the SQLite database (dev.db) and the user table.
 
-6. **Check the database**
+6. **Check the database**  
    You may want to install sqlite CLI. Download it from [https://sqlite.org/download.html](https://sqlite.org/download.html).  
    This Readme shows example of Powershell and sqlite3.exe.  
    Go to the home directory of your project and run:
