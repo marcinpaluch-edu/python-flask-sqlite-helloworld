@@ -1,7 +1,8 @@
 # My Flask Application 🚀
 
-A full‑blown Python application boilerplate using **Flask**, **SQLAlchemy**, and **Flask‑Migrate** with SQLite.  
-This project demonstrates a clean structure with models, services, routes, and migrations.
+A functional Python Hello-world type application using **Flask**, **SQLAlchemy**, and **Flask‑Migrate** with SQLite.  
+This project demonstrates a clean structure with models, services, routes, and migrations.  
+Enjoy!  
 
   
 ## 📂 Project Structure
