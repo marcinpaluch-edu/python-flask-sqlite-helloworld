@@ -9,28 +9,24 @@ This project demonstrates a clean structure with models, services, routes, and m
   my_app/  
   │  
   ├── app/  
-  │    ├── __init__.py          # App factory  
-  │    ├── config.py            # Config classes  
   │    ├── models/              # Database models  
   │    │   └── user.py
   │    │
-  │    ├── services/            # Business logic  
-  │    │   └── auth_service.py  
-  │    │
-  |    ├── routes/              # Flask Blueprints  
+  │    ├── routes/              # Flask Blueprints  
   │    │   └── user_routes.py
   │    │
-  │    ├── utils/               # Helpers  
-  │    └── templates/           # Jinja2 templates (optional)  
+  │    ├─ services/            # Business logic  
+  │    │   └── auth_service.py  
+  │    │
+  │    ├── config.py            # Config classes  
+  │    └── __init__.py          # App factory  
   │  
+  ├── instance/                # SQLite instance file  
   ├── migrations/              # Alembic/Flask-Migrate  
-  ├── tests/                   # Unit tests  
-  │    └── test_user.py  
-  │  
-  ├── requirements.txt  
-  ├── run.py                   # Entry point  
-  ├── Dockerfile  
-  └── .env  
+  ├── .gitignore  
+  ├── .env
+  ├── README.md                # This file                       
+  └── run.py                   # Entry point  
   ```
 
 ## ⚙️ Setup Instructions
