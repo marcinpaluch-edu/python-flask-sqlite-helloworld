@@ -184,10 +184,10 @@ Create a .env file (optional)
 
 10. **Final test**  
    Check if user was created successfully  
-   ```sql
+   ```sql   
    sqlite> select * from user;
    1|marcin|marcin@example.com
    sqlite>
    ```
-
+   
    You're now done.
