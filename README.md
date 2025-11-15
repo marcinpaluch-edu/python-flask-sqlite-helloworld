@@ -21,8 +21,8 @@ This project demonstrates a clean structure with models, services, routes, and m
   │    ├── config.py            # Config classes  
   │    └── __init__.py          # App factory  
   │  
-  ├── instance/                # SQLite instance file  
-  ├── migrations/              # Alembic/Flask-Migrate  
+  ├── instance/                # SQLite instance file dev.db is here, creates automatically
+  ├── migrations/              # Alembic/Flask-Migrate files, creates automatically
   ├── .gitignore  
   ├── .env
   ├── README.md                # This file                       
