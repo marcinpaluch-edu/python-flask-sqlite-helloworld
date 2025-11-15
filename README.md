@@ -74,8 +74,8 @@ Create a .env file (optional)
    This creates the SQLite database (dev.db) and the user table.
 
 6. **Check the database**
-   You may want to install sqlite CLI. Download it from [https://sqlite.org/download.html](https://sqlite.org/download.html).
-   This Readme shows example of Powershell and sqlite3.exe. 
+   You may want to install sqlite CLI. Download it from [https://sqlite.org/download.html](https://sqlite.org/download.html).  
+   This Readme shows example of Powershell and sqlite3.exe.  
    Go to the home directory of your project and run:
    ```powershell
    cd instance
@@ -184,11 +184,10 @@ Create a .env file (optional)
 
 10. **Final test**  
    Check if user was created successfully  
-   ```sql   
+   ```sql
    sqlite> select * from user;
    1|marcin|marcin@example.com
    sqlite>
    ```
    
    You're now done.
-   
