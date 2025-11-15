@@ -192,5 +192,6 @@ Create a .env file (optional)
 
     And this is the end of the config.
 
-
+11. **Make note**  
+    This is a simple script and there are various limitations. For example name and email address columns in the database are unique and re-sending the same POST request used in this example again and again will throw an exception. Expand the code by adding exception handling if you would like to overcome that challenge. Thank you. 
 
